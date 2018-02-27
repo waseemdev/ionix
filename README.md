@@ -4,6 +4,27 @@ Experimental library for Ionic Framework helps you build an app without Typescri
 
 Built on top of [ng-interactions](https://github.com/waseemdev/ng-interactions).
 
+
+# Setup
+
+1. install via npm:
+```
+npm i ng-ionix@latest --save
+```
+2. Import IoxModule in you module
+```typescript
+import { IoxModule } from "ng-ionix";
+
+@NgModule({
+    imports: [
+        IoxModule,
+        ....
+    ]
+})
+export class AppModule { }
+```
+
+
 # Http
 
 ## `iox-apis`
